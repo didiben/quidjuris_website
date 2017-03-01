@@ -1,0 +1,131 @@
+body .main {
+  margin-top: 5%;
+  margin-bottom: 5%; }
+  body .main .mandat .fiche {
+    background-color: #A0DCF9;
+    height: 100%;
+    padding: 30px;
+    margin: 7%; }
+    body .main .mandat .fiche .row {
+      width: 100%;
+      margin: 0; }
+    body .main .mandat .fiche .description {
+      font-size: 18px; }
+    body .main .mandat .fiche .profileImage {
+      width: 100%;
+      border-radius: 20px;
+      margin-bottom: 10px; }
+    body .main .mandat .fiche .social {
+      width: 50px; }
+    body .main .mandat .fiche .socials {
+      margin-left: -20%;
+      width: 130%; }
+      body .main .mandat .fiche .socials .socialimg {
+        padding: 0; }
+      body .main .mandat .fiche .socials .socialtext {
+        min-width: 40%;
+        padding-right: 0;
+        padding-left: 10px; }
+  body .main .home #presentation {
+    background-color: #A0DCF9;
+    width: 47%;
+    margin-left: 3%;
+    margin-top: 2%; }
+    body .main .home #presentation .lis {
+      font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+      line-height: 1.42857143;
+      margin-bottom: 5px;
+      font-weight: 200;
+      font-size: 1.3em; }
+    body .main .home #presentation .bis {
+      margin-bottom: 10px; }
+  body .main .home #mainLogo {
+    height: 600px; }
+  body .main .home #mandatpic {
+    margin: 5%;
+    margin-top: -1%; }
+    body .main .home #mandatpic h2 {
+      font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+      font-weight: 300; }
+    body .main .home #mandatpic img {
+      border-width: 5px;
+      border-color: black; }
+  body .main .fondateur {
+    background-color: #A0DCF9;
+    margin: 5%; }
+  body .main .poles .polesCard {
+    background-color: #A0DCF9; }
+  body .main .poles #logo2 {
+    width: 40%;
+    position: fixed;
+    right: -5%;
+    top: 17%; }
+  body .main .partenaires .bettercallhugo {
+    padding: 1% 3%;
+    font-size: 18px;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 200; }
+  body .main .partenaires .emptydiv #part1 {
+    margin: 25%;
+    width: 65%; }
+  body .main .partenaires .emptydiv #part2 {
+    width: 20%;
+    margin: 25%; }
+  body .main .contacts {
+    margin: 1% 3%;
+    font-size: 18px;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 200; }
+    body .main .contacts #faceIcon {
+      width: 50px; }
+
+.bug {
+  background-color: #edf8fe; }
+
+.footer {
+  background-color: #07123A; }
+  .footer .text-muted {
+    margin: 0.5% 0 0.5% 0; }
+  .footer img {
+    width: 15%;
+    margin-top: 0.5%;
+    margin-bottom: 0.5%; }
+
+.header .navbar-default {
+  background-color: #07123A;
+  border-color: #07123A; }
+
+.header .navbar-default .navbar-brand {
+  color: #4D78B2;
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-weight: 400; }
+
+.header .navbar-default .navbar-brand:hover,
+.header .navbar-default .navbar-brand:focus {
+  color: #A0DCF9; }
+
+.header .navbar-default .navbar-nav > li > a {
+  color: #4D78B2;
+  font-size: 18px;
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-weight: 200; }
+
+.header .navbar-default .navbar-nav > li > a:hover,
+.header .navbar-default .navbar-nav > li > a:focus {
+  color: #A0DCF9; }
+
+.header .navbar-default .navbar-nav > .active > a,
+.header .navbar-default .navbar-nav > .active > a:hover,
+.header .navbar-default .navbar-nav > .active > a:focus {
+  color: #A0DCF9;
+  background-color: #0a1951; }
+
+.header .navbar-default .navbar-nav > .open > a,
+.header .navbar-default .navbar-nav > .open > a:hover,
+.header .navbar-default .navbar-nav > .open > a:focus {
+  color: #A0DCF9;
+  background-color: #0a1951; }
+
+.header .navbar-default .navbar-nav > .dropdown > a .caret {
+  border-top-color: #4D78B2;
+  border-bottom-color: #4D78B2; }

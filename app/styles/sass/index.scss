@@ -1,0 +1,178 @@
+$bluedark: #07123A;
+$bluemiddle: #4D78B2;
+$bluebright: #A0DCF9;
+
+body {
+    .main {
+        margin-top: 5%;
+        margin-bottom: 5%;
+        .mandat {
+            .fiche {
+                background-color: $bluebright;
+                height: 100%;
+                padding: 30px;
+                margin: 7%;
+                .row {
+                    width: 100%;
+                    margin: 0;
+                }
+                .description {
+                    font-size: 18px;
+                }
+                .profileImage {
+                    width: 100%;
+                    border-radius: 20px;
+                    margin-bottom: 10px;
+                }
+                .social {
+                    width: 50px;
+                }
+                .socials {
+                    margin-left: -20%;
+                    width: 130%;
+                    .socialimg {
+                        padding: 0;
+                    }
+                    .socialtext {
+                        min-width: 40%;
+                        padding-right: 0;
+                        padding-left: 10px;
+                    }
+                }
+            }
+        }
+        .home {
+            #presentation {
+                background-color: $bluebright;
+                width: 47%;
+                margin-left: 3%;
+                margin-top: 2%;
+                .lis {
+                    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+                    line-height: 1.42857143;
+                    margin-bottom: 5px;
+                    font-weight: 200;
+                    font-size: 1.3em;
+                }
+                .bis {
+                    margin-bottom: 10px;
+                }
+            }
+            #mainLogo {
+                height: 600px;
+            }
+            #mandatpic {
+                margin: 5%;
+                margin-top: -1%;
+                h2 {
+                    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+                    font-weight: 300;
+                }
+                img {
+                    border-width: 5px;
+                    border-color: black;
+                }
+            }
+        }
+        .fondateur {
+            background-color: $bluebright;
+            margin: 5%;
+        }
+        .poles {
+            .polesCard {
+                background-color: $bluebright;
+            }
+            #logo2 {
+                width: 40%;
+                position: fixed;
+                right: -5%;
+                top: 17%;
+            }
+        }
+        .partenaires {
+            .bettercallhugo {
+                padding: 1% 3%;
+                font-size: 18px;
+                font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+                font-weight: 200;
+            }
+            .emptydiv {
+                #part1 {
+                    margin: 25%;
+                    width: 65%;
+                }
+                #part2 {
+                    width: 20%;
+                    margin: 25%;
+                }
+            }
+        }
+        .contacts {
+            margin: 1% 3%;
+            font-size: 18px;
+            font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+            font-weight: 200;
+            #faceIcon {
+                width: 50px;
+            }
+        }
+    }
+}
+
+.bug {
+    background-color: lighten($bluebright, 16%);
+}
+
+.footer {
+    background-color: $bluedark;
+    .text-muted {
+        margin: 0.5% 0 0.5% 0;
+    }
+    img {
+        width:15%;
+        margin-top: 0.5%;
+        margin-bottom: 0.5%;
+    }
+}
+
+.header {
+    .navbar-default {
+        background-color: $bluedark;
+        border-color: $bluedark;
+    }
+    .navbar-default .navbar-brand {
+        color: $bluemiddle;
+        font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+        font-weight: 400;
+    }
+    .navbar-default .navbar-brand:hover,
+    .navbar-default .navbar-brand:focus {
+        color: $bluebright;
+    }
+    .navbar-default .navbar-nav > li > a {
+        color: $bluemiddle;
+        font-size: 18px;
+        font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+        font-weight: 200;
+    }
+    .navbar-default .navbar-nav > li > a:hover,
+    .navbar-default .navbar-nav > li > a:focus {
+        color: $bluebright;
+    }
+    .navbar-default .navbar-nav > .active > a,
+    .navbar-default .navbar-nav > .active > a:hover,
+    .navbar-default .navbar-nav > .active > a:focus {
+        color: $bluebright;
+        background-color: lighten($bluedark, 5%);
+    }
+    .navbar-default .navbar-nav > .open > a,
+    .navbar-default .navbar-nav > .open > a:hover,
+    .navbar-default .navbar-nav > .open > a:focus {
+        color: $bluebright;
+        background-color: lighten($bluedark, 5%);
+    }
+    .navbar-default .navbar-nav > .dropdown > a .caret {
+        border-top-color: $bluemiddle;
+        border-bottom-color: $bluemiddle;
+    }
+}
